@@ -1,9 +1,9 @@
 package controllers
 
 import (
-	"gopher-vault/internal/initializers"
-	"gopher-vault/internal/middleware"
+	"gopher-vault/api/initializers"
 	"gopher-vault/internal/models"
+	"gopher-vault/middleware"
 	"net/http"
 	"os"
 	"time"
